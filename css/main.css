@@ -52,11 +52,11 @@ header{
   color:lightskyblue;
 }
 
-/*Estilo de la parte principal d la página*/
+/*Estilo de la parte principal de la página*/
 .main-image{
   width:100%;
   position: relative;
-  top:45px;
+  top:35px;
 }
 
 main{
@@ -161,7 +161,7 @@ footer{
   }
 
   .main-image{
-    top:60px;
+    top:55px;
   }
   .card{
     margin-right:20px;
@@ -173,3 +173,12 @@ footer{
 
 }
 
+@media screen and (min-width :992px) {
+  
+  .main-image{
+    top:60px;
+    
+  }
+ 
+
+}
