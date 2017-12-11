@@ -13,18 +13,25 @@ body
   background-color:#eee;
   font-family: sans-serif;
   color:#333;
+  text-align:justify;
 }
 
 header{
-  padding:2% 5%;
   color:red;
   background: #e6ecf0;
+  padding:2% 5%;
+  position:fixed;
+  z-index:1000;
+  outline: solid 1px red;
+  
+  
+
 }
 
 .title{
   display:inline-block;
   font-weight:bold;
-  padding:5px;
+  
   border:solid 1px red;
 }
 
@@ -32,15 +39,15 @@ header{
   text-transform:uppercase;
 }
 
-.button{
+.drop-down{
   float:right;
   cursor: pointer;
 }
 
 .menu-navigator{
   float:right;
-  
   display:none;
+  outline:solid 1px green;
 }
 
 .item{
@@ -57,29 +64,79 @@ header{
   color:white;
 }
 
-
-
 figure img{
   width:100%;
+  position: relative;
+  top:40px;
+}
+main{
+  position: relative;
+  top:50px;
 }
 
+.line-spacing{
+  line-height: 25px;
+}
+
+
+.about{
+  padding:10px;
+  outline:solid 1px red; 
+}
+
+.contact-us{
+  padding:10px;
+  outline:solid 1px red;  
+}
+
+.button{
+  background-color: #1e9e74;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-top:20px;
+  padding:10px;
+  
+}
+
+.social-network{
+  color:#1e9e74;
+  margin-right:5px;
+}
+
+.card{
+  padding:10px;
+  position: relative;
+  outline:solid 1px purple;
+}
 @media screen and (min-width : 769px) {
   header{
     
     color:green;  
   }
-  .button{
+  .drop-down{
     display:none;
   }
 
   .menu-navigator{
     display:inline-block;
+    margin-right:100px;
   }
+
+  figure img{
+    top:55px;
+  }
+
 }
 
 @media screen and (min-width : 993px) {
   header{
       color:blue;
+  }
+
+  figure img{
+    top:60px;
   }
 
 }
