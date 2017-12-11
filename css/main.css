@@ -10,7 +10,8 @@ body
 
 header{
   max-width: 100%;
-  background: #e6ecf0;
+  background: #1e9e74;
+  color:white;
   padding:2% 5%;
   position:fixed;
   z-index:1000;
@@ -45,10 +46,10 @@ header{
 
 .item a{
   text-decoration:none;
-  color:black;
+  color:white;
 }
 .item a:hover{
-  color:white;
+  color:lightskyblue;
 }
 
 /*Estilo de la parte principal d la página*/
@@ -107,8 +108,6 @@ main{
   margin-top:5px;
   padding:10px;
   float:left;
-
-  
 }
 
 .card-image{
@@ -150,8 +149,6 @@ footer{
 
   .card-image{
     height:150px;
-    
-    
   }
 
 }
