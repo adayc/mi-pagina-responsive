@@ -18,29 +18,68 @@ body
 header{
   padding:2% 5%;
   color:red;
+  background: #e6ecf0;
 }
 
 .title{
   display:inline-block;
   font-weight:bold;
-  text-transform:uppercase;
+  padding:5px;
   border:solid 1px red;
+}
+
+.uppercase{
+  text-transform:uppercase;
 }
 
 .button{
   float:right;
+  cursor: pointer;
+}
+
+.menu-navigator{
+  float:right;
+  
+  display:none;
+}
+
+.item{
+  display:inline-block;
+  padding:5px;
+  outline:solid 1px red;
+}
+
+.item a{
+  text-decoration:none;
+  color:black;
+}
+.item a:hover{
+  color:white;
+}
+
+
+
+figure img{
+  width:100%;
 }
 
 @media screen and (min-width : 769px) {
   header{
     
-    color:green;
+    color:green;  
+  }
+  .button{
+    display:none;
+  }
+
+  .menu-navigator{
+    display:inline-block;
   }
 }
 
 @media screen and (min-width : 993px) {
   header{
-    
-    color:blue;
+      color:blue;
   }
+
 }
