@@ -4,7 +4,7 @@ window.addEventListener('load', function() {
      
 
   btn.addEventListener('click', function showNavigator(event) {
-    alert('holi');
+    
     menu.classList.toggle('menu-modal');
   });
 });

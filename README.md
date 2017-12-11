@@ -11,7 +11,9 @@ que se están haciendo (o en proceso) o hechas (terminadas).
 
 
 
-![Trello](assets/imgs/pic-trello.jpg)
+![Imagenes](assets/imgs/desktop-1.jpg)
+![Imagenes](assets/imgs/desktop-2.jpg)
+![Imagenes](assets/imgs/mobile.jpg)
 
 ## Detalles adicionales
 -Para esta aplicación se empleó : HTML5, CSS3 y Javascript.
