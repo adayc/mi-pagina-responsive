@@ -182,3 +182,13 @@ footer{
  
 
 }
+
+@media screen and (min-width :1600px) {
+  
+  .main-image{
+    top:69px;
+    
+  }
+ 
+
+}
