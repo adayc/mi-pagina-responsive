@@ -128,6 +128,26 @@ footer{
   
 }
 
+/*Clase para el menú desplegable js*/
+.menu-modal{
+  display:block;
+  
+  
+}
+
+.menu-modal ul{
+  display:block;
+  background-color: #1e9e74;
+  position: absolute;
+  top:25px;
+  right:3%;
+}
+
+.menu-modal ul li{
+  display:block;
+}
+
+
  /*Configuracion de la página en el caso que sea mayor o igual a 768px*/
 @media screen and (min-width : 768px) {
   
