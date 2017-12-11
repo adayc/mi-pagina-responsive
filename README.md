@@ -11,9 +11,9 @@ que se están haciendo (o en proceso) o hechas (terminadas).
 
 
 
-![Imagenes](assets/imgs/desktop-1.jpg)
-![Imagenes](assets/imgs/desktop-2.jpg)
-![Imagenes](assets/imgs/mobile.jpg)
+![Imagenes](assets/imgs/desktop-1.JPG)
+![Imagenes](assets/imgs/desktop-2.JPG)
+![Imagenes](assets/imgs/mobile.JPG)
 
 ## Detalles adicionales
 -Para esta aplicación se empleó : HTML5, CSS3 y Javascript.
