@@ -17,22 +17,16 @@ body
 }
 
 header{
-  color:red;
+  max-width: 100%;
   background: #e6ecf0;
   padding:2% 5%;
   position:fixed;
   z-index:1000;
-  outline: solid 1px red;
-  
-  
-
 }
 
 .title{
   display:inline-block;
   font-weight:bold;
-  
-  border:solid 1px red;
 }
 
 .uppercase{
@@ -69,6 +63,7 @@ header{
   position: relative;
   top:45px;
 }
+
 main{
   position: relative;
   top:50px;
@@ -105,13 +100,17 @@ main{
   margin-right:5px;
 }
 
+.articles{
+  float:left;
+}
+
 .card{
   border:solid 1px gray;
   border-radius: 5px;
   margin-bottom:5px;
   margin-top:5px;
   padding:10px;
-  position: relative;
+  float:left;
 
   
 }
@@ -133,10 +132,7 @@ footer{
   
 }
 @media screen and (min-width : 768px) {
-  header{
-    
-    color:green;  
-  }
+  
   .drop-down{
     display:none;
   }
@@ -147,18 +143,17 @@ footer{
   }
 
   .main-image{
-    top:45px;
-  }
-
-}
-
-@media screen and (min-width : 992px) {
-  header{
-      color:blue;
-  }
-
-  .main-image{
     top:60px;
   }
+  .card{
+    margin-right:20px;
+  }
+
+  .card-image{
+    height:150px;
+    
+    
+  }
 
 }
+
