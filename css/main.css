@@ -13,5 +13,34 @@ body
   background-color:#eee;
   font-family: sans-serif;
   color:#333;
+}
 
+header{
+  padding:2% 5%;
+  color:red;
+}
+
+.title{
+  display:inline-block;
+  font-weight:bold;
+  text-transform:uppercase;
+  border:solid 1px red;
+}
+
+.button{
+  float:right;
+}
+
+@media screen and (min-width : 769px) {
+  header{
+    
+    color:green;
+  }
+}
+
+@media screen and (min-width : 993px) {
+  header{
+    
+    color:blue;
+  }
 }
