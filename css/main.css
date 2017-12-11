@@ -1,13 +1,5 @@
  /*Configuracion inicial de la página*/
 
- * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin:0;
-  padding: 0;
-}
-
 body
 {
   background-color:#eee;
@@ -33,6 +25,7 @@ header{
   text-transform:uppercase;
 }
 
+/*Estilo del navegador*/
 .drop-down{
   float:right;
   cursor: pointer;
@@ -58,6 +51,7 @@ header{
   color:white;
 }
 
+/*Estilo de la parte principal d la página*/
 .main-image{
   width:100%;
   position: relative;
@@ -100,6 +94,8 @@ main{
   margin-right:5px;
 }
 
+/*Estilo de los articulos*/
+
 .articles{
   float:left;
 }
@@ -120,6 +116,7 @@ main{
   height:300px;
   margin-top:15px;
 }
+/*Estilo del footer*/
 footer{
   
   background-color: #1e9e74;
@@ -131,6 +128,8 @@ footer{
   top:50px;
   
 }
+
+ /*Configuracion de la página en el caso que sea mayor o igual a 768px*/
 @media screen and (min-width : 768px) {
   
   .drop-down{
